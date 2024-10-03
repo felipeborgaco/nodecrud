@@ -6,7 +6,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "install-deps": "npm install",
-    "start-docker": "docker-compose up -d",
+    "start-docker": "docker compose up -d",
     "start-server": "node server.js --watch",
     "start": "npm run install-deps && npm run start-docker && npm run start-server"
   
